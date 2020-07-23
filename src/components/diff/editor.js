@@ -2,7 +2,6 @@ import React, {useRef} from 'react'
 import {MonacoDiffEditor} from 'react-monaco-editor'
 import {Dialog} from "@material-ui/core";
 import CloseIcon from '@material-ui/icons/Close';
-import Button from "@material-ui/core/Button";
 import {makeStyles} from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
@@ -37,11 +36,11 @@ export default function DiffEditor(props) {
     function onCancel() {
     }
 
-    // https://github.com/react-monaco-editor/react-monaco-editor/blob/master/src/diff.js#L19
-    function onSave() {
-        const {modified} = monacoRef.current.editor.getModel()
-        console.log(modified.getValue())
-    }
+    // // https://github.com/react-monaco-editor/react-monaco-editor/blob/master/src/diff.js#L19
+    // function onSave() {
+    //     const {modified} = monacoRef.current.editor.getModel()
+    //     console.log(modified.getValue())
+    // }
 
     return (
         <Dialog fullScreen open={props.open} onClose={onCancel}>
