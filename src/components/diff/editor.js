@@ -35,7 +35,6 @@ export default function DiffEditor(props) {
     }
 
     function onCancel() {
-        props.onClose()
     }
 
     // https://github.com/react-monaco-editor/react-monaco-editor/blob/master/src/diff.js#L19
