@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/wujing/static/css/main.5f361e03.chunk.css",
-    "main.js": "/wujing/static/js/main.8ccdb976.chunk.js",
-    "main.js.map": "/wujing/static/js/main.8ccdb976.chunk.js.map",
-    "runtime-main.js": "/wujing/static/js/runtime-main.bd54b238.js",
-    "runtime-main.js.map": "/wujing/static/js/runtime-main.bd54b238.js.map",
-    "static/css/2.1e1d9525.chunk.css": "/wujing/static/css/2.1e1d9525.chunk.css",
-    "static/js/2.c00c4908.chunk.js": "/wujing/static/js/2.c00c4908.chunk.js",
-    "static/js/2.c00c4908.chunk.js.map": "/wujing/static/js/2.c00c4908.chunk.js.map",
+    "main.css": "/wujing/static/css/main.7f904051.chunk.css",
+    "main.js": "/wujing/static/js/main.06b3204c.chunk.js",
+    "main.js.map": "/wujing/static/js/main.06b3204c.chunk.js.map",
+    "runtime-main.js": "/wujing/static/js/runtime-main.4d4dafd9.js",
+    "runtime-main.js.map": "/wujing/static/js/runtime-main.4d4dafd9.js.map",
+    "static/css/2.7e8d0ee3.chunk.css": "/wujing/static/css/2.7e8d0ee3.chunk.css",
+    "static/js/2.bf830017.chunk.js": "/wujing/static/js/2.bf830017.chunk.js",
+    "static/js/2.bf830017.chunk.js.map": "/wujing/static/js/2.bf830017.chunk.js.map",
     "index.html": "/wujing/index.html",
-    "precache-manifest.e0d6242d3842285c2885e566f3f8ef5e.js": "/wujing/precache-manifest.e0d6242d3842285c2885e566f3f8ef5e.js",
+    "precache-manifest.7161b072f1379dc3ccf86f412c498252.js": "/wujing/precache-manifest.7161b072f1379dc3ccf86f412c498252.js",
     "service-worker.js": "/wujing/service-worker.js",
-    "static/css/2.1e1d9525.chunk.css.map": "/wujing/static/css/2.1e1d9525.chunk.css.map",
-    "static/css/main.5f361e03.chunk.css.map": "/wujing/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.c00c4908.chunk.js.LICENSE.txt": "/wujing/static/js/2.c00c4908.chunk.js.LICENSE.txt"
+    "static/css/2.7e8d0ee3.chunk.css.map": "/wujing/static/css/2.7e8d0ee3.chunk.css.map",
+    "static/css/main.7f904051.chunk.css.map": "/wujing/static/css/main.7f904051.chunk.css.map",
+    "static/js/2.bf830017.chunk.js.LICENSE.txt": "/wujing/static/js/2.bf830017.chunk.js.LICENSE.txt",
+    "static/media/codicon.css": "/wujing/static/media/codicon.b13daaad.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.bd54b238.js",
-    "static/css/2.1e1d9525.chunk.css",
-    "static/js/2.c00c4908.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.8ccdb976.chunk.js"
+    "static/js/runtime-main.4d4dafd9.js",
+    "static/css/2.7e8d0ee3.chunk.css",
+    "static/js/2.bf830017.chunk.js",
+    "static/css/main.7f904051.chunk.css",
+    "static/js/main.06b3204c.chunk.js"
   ]
 }
