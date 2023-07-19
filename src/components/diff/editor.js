@@ -7,6 +7,7 @@ import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import IconButton from "@material-ui/core/IconButton";
 import Typography from "@material-ui/core/Typography";
+import metadata from "monaco-editor/esm/metadata";
 
 const useStyles = makeStyles(theme => ({
     appBar: {
@@ -41,7 +42,7 @@ export default function DiffEditor(props) {
     //     const {modified} = monacoRef.current.editor.getModel()
     //     console.log(modified.getValue())
     // }
-
+    console.log(metadata.languages);
     return (
         <Dialog fullScreen open={props.open} onClose={onCancel}>
             <AppBar className={classes.appBar}>
