@@ -20,9 +20,10 @@ const useStyles = makeStyles(theme => ({
 
 const options = {
     selectOnLineNumbers: true,
-    automaticLayout: false,
+    automaticLayout: true,
     fontSize: '18px',
     originalEditable: true,
+    wordWrap: "on",
     // readOnly: !props.editable
 }
 
@@ -41,6 +42,7 @@ export default function DiffEditor(props) {
     //     const {modified} = monacoRef.current.editor.getModel()
     //     console.log(modified.getValue())
     // }
+
     return (
         <Dialog fullScreen open={props.open} onClose={onCancel}>
             <AppBar className={classes.appBar}>
@@ -54,7 +56,6 @@ export default function DiffEditor(props) {
                 </Toolbar>
             </AppBar>
             <MonacoDiffEditor
-                width="100%"
                 height="100%"
                 language="yaml"
                 theme="vs-dark"
