@@ -1,4 +1,3 @@
-import { Dialog } from "@material-ui/core";
 import React, { useRef } from 'react';
 import { MonacoDiffEditor } from 'react-monaco-editor';
 
@@ -21,17 +20,14 @@ export default function DiffEditor(props) {
     // }
 
     return (
-        <Dialog fullScreen open={props.open} onClose={onCancel}>
-            <MonacoDiffEditor
-                height="100%"
-                language="yaml"
-                theme="vs-dark"
-                ref={monacoRef}
-                original=""
-                value=""
-                options={options}
-                onChange={handleChange}
-            />
-        </Dialog>
+        <MonacoDiffEditor
+            height="100%"
+            language="yaml"
+            theme="vs-dark"
+            ref={monacoRef}
+            original=""
+            value=""
+            options={options}
+        />
     );
 }
