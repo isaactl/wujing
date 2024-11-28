@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import MonacoDiffEditor from 'react-monaco-editor';
+import { MonacoDiffEditor } from 'react-monaco-editor';
 
 const options = {
     selectOnLineNumbers: true,
