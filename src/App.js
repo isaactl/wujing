@@ -1,16 +1,11 @@
 import React from 'react';
 import './App.css';
-import DiffEditor from './components/diff/editor'
+import DiffEditor from './components/diff/editor';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <DiffEditor open={true}/>
-      </header>
+      <DiffEditor open={true} />
     </div>
   );
 }

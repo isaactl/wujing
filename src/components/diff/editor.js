@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { MonacoDiffEditor } from 'react-monaco-editor';
+import MonacoDiffEditor from 'react-monaco-editor';
 
 const options = {
     selectOnLineNumbers: true,
@@ -21,7 +21,7 @@ export default function DiffEditor(props) {
 
     return (
         <MonacoDiffEditor
-            height="100%"
+            height="100vh"
             language="yaml"
             theme="vs-dark"
             ref={monacoRef}
