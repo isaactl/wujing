@@ -36,6 +36,8 @@ Open [http://localhost:3000](http://localhost:3000) to use the editor.
 
 Run `npm run build` to create the static site in `docs/`. The export is
 configured for the repository's GitHub Pages path, `/wujing/`.
+The `public/.nojekyll` file ensures GitHub Pages publishes Next.js's `_next`
+asset directory instead of filtering it out.
 
 To build and serve the export locally with working root-relative asset URLs, run:
 
