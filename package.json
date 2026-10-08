@@ -5,6 +5,7 @@
     "scripts": {
         "dev": "next dev",
         "build": "next build",
+        "preview:docs": "NEXT_BASE_PATH='' next build && npx serve docs",
         "start": "next start",
         "lint": "eslint"
     },
