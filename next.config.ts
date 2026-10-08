@@ -6,7 +6,7 @@ import path from "path";
 const nextConfig: NextConfig = {
     output: "export",
     distDir: "docs",
-    basePath: "/wujing",
+    basePath: process.env.NEXT_BASE_PATH ?? "/wujing",
 
     webpack(config, { isServer }) {
         config.resolve.alias = {

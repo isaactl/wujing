@@ -37,6 +37,14 @@ Open [http://localhost:3000](http://localhost:3000) to use the editor.
 Run `npm run build` to create the static site in `docs/`. The export is
 configured for the repository's GitHub Pages path, `/wujing/`.
 
+To preview the export locally at the root URL, run:
+
+```bash
+NEXT_BASE_PATH='' npm run build && npx serve docs
+```
+
+Then open [http://localhost:3000](http://localhost:3000).
+
 ## Validation
 
 ```bash
